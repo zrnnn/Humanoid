@@ -2,6 +2,9 @@ import { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import { motion, AnimatePresence, useScroll } from 'framer-motion';
 import { ChevronRight, X } from 'lucide-react';
+import hfKognitiv from '/hf-kognitiv.png';
+import hfAktoren from '/hf-aktoren.png';
+import hfSystem from '/hf-system.png';
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -37,17 +40,17 @@ const fields = [
     color: 'text-blue-600',
     bgHover: 'hover:bg-blue-50/50',
     bgExpanded: 'bg-blue-50/30 border-blue-200',
-    image: './hf-kognitiv.png'
+    image: hfKognitiv
   },
   {
     id: 'usecase',
     title: 'Leuchtturmprojekte',
     description: 'Initiierung realer Leuchtturmprojekte in Schlüsselbranchen wie der Industrie 4.0 und der fortschrittlichen Pflegemedizin.',
-    fullStory: 'Wir überführen theoretische Konzepte in greifbare, wirtschaftlich tragfähige Anwendungsfälle, um frühzeitiges Vertrauen zu schaffen und die Markteinführung innovativer Systeme zu beschleunigen. Ob Roboter, die in der Pflege bei physisch belastenden Aufgaben unterstützen, oder autarke humanoide Assistenten in der hochautomatisierten Fertigung – wir zeigen, dass die Zukunft bereits Realität ist.\n\n**Warum das so wichtig ist:**\nGesellschaftliche Akzeptanz entsteht nicht im Labor, sondern in der Praxis. Leuchtturmprojekte bauen die abstrakte Angst vor der Maschine ab und veranschaulichen den konkreten Mehrwert. Gerade in Zeiten extremen Fachkräftemangels in der Pflege oder Logistik muss nachvollziehbar demonstriert werden, wie Humanoide den Menschen unterstützen und entlasten, anstatt ihn zu ersetzen.',
+    fullStory: 'Wir überführen theoretische Konzepte in greifbare, wirtschaftlich tragfähige Anwendungsfälle, um frühzeitiges Vertrauen zu schaffen und die Markteinführung innovativer Systeme zu beschleunigen. Ob Roboter, die in der Pflege bei physisch belastenden Aufgaben unterstützen, oder autarke humanoide Assistenten in der hochautomatisierten Fertigung – wir zeigen, dass die Zukunft bereits Realität ist.\n\n**Warum das so wichtig ist:**\nGesellschaftliche Akzeptanz entsteht nicht im Laboratory, sondern in der Praxis. Leuchtturmprojekte bauen die abstrakte Angst vor der Maschine ab und veranschaulichen den konkreten Mehrwert. Gerade in Zeiten extremen Fachkräftemangels in der Pflege oder Logistik muss nachvollziehbar demonstriert werden, wie Humanoide den Menschen unterstützen und entlasten, anstatt ihn zu ersetzen.',
     color: 'text-emerald-600',
     bgHover: 'hover:bg-emerald-50/50',
     bgExpanded: 'bg-emerald-50/30 border-emerald-200',
-    image: './hf-aktoren.png'
+    image: hfAktoren
   },
   {
     id: 'reg',
@@ -57,7 +60,7 @@ const fields = [
     color: 'text-indigo-600',
     bgHover: 'hover:bg-indigo-50/50',
     bgExpanded: 'bg-indigo-50/30 border-indigo-200',
-    image: './hf-system.png'
+    image: hfSystem
   }
 ];
 
