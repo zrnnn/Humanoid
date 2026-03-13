@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-slate-900;
+    /* Soft modern gradient from slate-50 to light blue/indigo tint */
+    background: linear-gradient(150deg, #dbeafe 0%, #f0f4ff 25%, #f8faff 55%, #ede9fe 100%);
+    background-attachment: fixed;
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Custom scrollbar for light mode */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-slate-100;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-300 rounded-full hover:bg-slate-400 transition-colors;
+  }
+}
+
+@layer components {
+  /* Core aesthetic card for the b150.ai look */
+  .bento-card {
+    @apply relative bg-[#050505] border border-white/5 rounded-3xl overflow-hidden backdrop-blur-sm;
+  }
+
+  .bgCard {
+    background-color: #ffffff;
+  }
+}
