@@ -2,14 +2,14 @@ import { motion } from 'framer-motion';
 import { User } from 'lucide-react';
 
 const stakeholders = [
-  { id: 1, name: 'Prof. Dr. Johannes Weber', role: 'Inhaber Lehrstuhl Robotik', org: 'TUM München', image: '/portraits/1.png' },
-  { id: 2, name: 'Dr. Maria Lindner', role: 'Head of Automation', org: 'KUKA AG', image: '/portraits/2.png' },
-  { id: 3, name: 'Prof. Dr. Sven Meyer', role: 'Direktor KI-Institut', org: 'FAU Erlangen', image: '/portraits/3.png' },
-  { id: 4, name: 'Elena Rossi', role: 'CEO', org: 'Bavaria Robotics', image: '/portraits/1.png' },
-  { id: 5, name: 'Dr. Karsten Bauer', role: 'Senior Researcher', org: 'Fraunhofer IIS', image: '/portraits/2.png' },
-  { id: 6, name: 'Lisa Wagner', role: 'Leitung Innovation', org: 'BMW Group', image: '/portraits/3.png' },
-  { id: 7, name: 'Prof. Dr. Alena Kovic', role: 'Prof. für Sensorik', org: 'TH Augsburg', image: '/portraits/1.png' },
-  { id: 8, name: 'Michael Schmidt', role: 'CTO', org: 'RoboServe GmbH', image: '/portraits/2.png' }
+  { id: 1, name: 'Prof. Dr. Johannes Weber', role: 'Inhaber Lehrstuhl Robotik', org: 'TUM München', image: './portraits/1.png' },
+  { id: 2, name: 'Dr. Maria Lindner', role: 'Head of Automation', org: 'KUKA AG', image: './portraits/2.png' },
+  { id: 3, name: 'Prof. Dr. Sven Meyer', role: 'Direktor KI-Institut', org: 'FAU Erlangen', image: './portraits/3.png' },
+  { id: 4, name: 'Elena Rossi', role: 'CEO', org: 'Bavaria Robotics', image: './portraits/1.png' },
+  { id: 5, name: 'Dr. Karsten Bauer', role: 'Senior Researcher', org: 'Fraunhofer IIS', image: './portraits/2.png' },
+  { id: 6, name: 'Lisa Wagner', role: 'Leitung Innovation', org: 'BMW Group', image: './portraits/3.png' },
+  { id: 7, name: 'Prof. Dr. Alena Kovic', role: 'Prof. für Sensorik', org: 'TH Augsburg', image: './portraits/1.png' },
+  { id: 8, name: 'Michael Schmidt', role: 'CTO', org: 'RoboServe GmbH', image: './portraits/2.png' }
 ];
 
 const containerVariants = {

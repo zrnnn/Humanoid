@@ -26,7 +26,7 @@ export default function App() {
           <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
             <a href="#" className="flex items-center gap-3 group">
               {/* Logo - mix-blend-multiply eliminates the white background artifact seamlessly */}
-              <img src="/logo.png" alt="Humanoids Bavaria Logo" className="h-14 w-14 object-contain rounded-lg transition-transform group-hover:scale-105 invert mix-blend-multiply opacity-90" />
+              <img src="./logo.png" alt="Humanoids Bavaria Logo" className="h-14 w-14 object-contain rounded-lg transition-transform group-hover:scale-105 invert mix-blend-multiply opacity-90" />
               <span className="font-bold text-lg tracking-tight text-slate-900">
                 Home of Humanoids
               </span>
@@ -50,7 +50,7 @@ export default function App() {
         <section id="vision" className="relative w-full min-h-[85vh] flex flex-col items-start justify-start pt-32 md:pt-40 pb-20">
           {/* Subtle Photorealistic Alpine Background — smooth fade to transparent before the section ends */}
           <div 
-            className="absolute inset-0 z-0 pointer-events-none opacity-[0.60] bg-[url('/alpine-bg.png')] bg-cover bg-center bg-no-repeat transition-opacity duration-1000 mix-blend-multiply"
+            className="absolute inset-0 z-0 pointer-events-none opacity-[0.60] bg-[url('./alpine-bg.png')] bg-cover bg-center bg-no-repeat transition-opacity duration-1000 mix-blend-multiply"
             style={{ 
               maskImage: 'linear-gradient(to bottom, black 0%, rgba(0,0,0,0.2) 40%, transparent 60%)',
               WebkitMaskImage: 'linear-gradient(to bottom, black 0%, rgba(0,0,0,0.2) 40%, transparent 60%)' 
@@ -190,7 +190,7 @@ export default function App() {
           <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 text-sm">
             <div>
               <div className="flex items-center gap-3 mb-5">
-                <img src="/logo.png" alt="Logo" className="h-[50px] w-[50px] object-contain rounded-lg invert" />
+                <img src="./logo.png" alt="Logo" className="h-[50px] w-[50px] object-contain rounded-lg invert" />
                 <span className="font-bold text-xl text-slate-900">Home of Humanoids</span>
               </div>
               <p className="max-w-xs leading-relaxed text-slate-500">
