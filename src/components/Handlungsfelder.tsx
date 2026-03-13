@@ -37,7 +37,7 @@ const fields = [
     color: 'text-blue-600',
     bgHover: 'hover:bg-blue-50/50',
     bgExpanded: 'bg-blue-50/30 border-blue-200',
-    image: '/hf-kognitiv.png'
+    image: './hf-kognitiv.png'
   },
   {
     id: 'usecase',
@@ -47,7 +47,7 @@ const fields = [
     color: 'text-emerald-600',
     bgHover: 'hover:bg-emerald-50/50',
     bgExpanded: 'bg-emerald-50/30 border-emerald-200',
-    image: '/hf-aktoren.png'
+    image: './hf-aktoren.png'
   },
   {
     id: 'reg',
@@ -57,7 +57,7 @@ const fields = [
     color: 'text-indigo-600',
     bgHover: 'hover:bg-indigo-50/50',
     bgExpanded: 'bg-indigo-50/30 border-indigo-200',
-    image: '/hf-system.png'
+    image: './hf-system.png'
   }
 ];
 
